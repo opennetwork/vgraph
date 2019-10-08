@@ -18,15 +18,15 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@opennetwork/progressive-merge@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/@opennetwork/progressive-merge/-/progressive-merge-2.1.0.tgz#694a141fa7c52d785382c50c2a14371d7d4bd62a"
-  integrity sha512-9yuaT/4esUW0Y8VbJ+K4CBIYUM5DFJrK1oMfKbSQPHfuBYWuvV09wiqE0goCD7DsN2480CFx7K9O76+IpaaxOw==
+"@opennetwork/progressive-merge@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/@opennetwork/progressive-merge/-/progressive-merge-2.2.0.tgz#93ffc862cbc79645970f14b4b65be151db2447b8"
+  integrity sha512-gPoLYoVVR0v/LaiezwmJp8Rtilli6JlAJbZV+8k7RXSnGKKzyNQnV8FEx8941k3LaZ1CKym73ytS4lmSFy1lEA==
 
-"@opennetwork/vnode@^14.0.0":
-  version "14.0.0"
-  resolved "https://registry.npmjs.org/@opennetwork/vnode/-/vnode-14.0.0.tgz#f52d3bb305c22306da26f8a4ed5a579b0c23929f"
-  integrity sha512-1HDspJ+qsRIekfnw7sketSHwWHDfH5NIpX59kZ2TmRA4vU3Hv5LjOGUx8QsWNHEn2z1Zi8CXYEpmAyceuy2Lqw==
+"@opennetwork/vnode@^14.2.0":
+  version "14.2.0"
+  resolved "https://registry.npmjs.org/@opennetwork/vnode/-/vnode-14.2.0.tgz#c3e2e291cb89095600144f960508a88d2eb6c3e9"
+  integrity sha512-OKV8fS0GSwSrB2EpR9mnEDZXH9gi5j9V9R1myvTJhP9+jPSxxxUA8AB1H74TCus1ayZl1458LBO7o/9yiTGlPg==
   dependencies:
     iterable "^5.2.2"
 
@@ -185,6 +185,11 @@ has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+
+htm@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.npmjs.org/htm/-/htm-2.2.1.tgz#02ae7459901b3956aeaf6c7ae627fb6905dc7607"
+  integrity sha512-nPWqBlSbdSHaT2d/cpFRpZLqH5BcdaRcXaicyAtXbkIsIiXLnstPPg0fEX3I8SrlY16FSzb1FLK44uk25xhMvw==
 
 inflight@^1.0.4:
   version "1.0.6"

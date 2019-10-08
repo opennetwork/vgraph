@@ -1,2 +1,1 @@
-export * from "./next/map/graph";
-export * from "./next/map/edge";
+export * from "./next/slice";

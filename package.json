@@ -2,8 +2,10 @@
   "name": "@opennetwork/vgraph",
   "version": "1.0.0",
   "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "tsc --declaration && npm run tslint && node correct-import-extensions.js",
     "watch": "tsc -w",
@@ -12,8 +14,8 @@
   },
   "peerDependencies": {},
   "dependencies": {
-    "@opennetwork/progressive-merge": "^2.1.0",
-    "@opennetwork/vnode": "^14.0.0",
+    "@opennetwork/progressive-merge": "^2.2.0",
+    "@opennetwork/vnode": "^14.2.0",
     "iterable": "^5.6.0"
   },
   "repository": {
@@ -24,6 +26,7 @@
     "@types/node": "^12.7.8",
     "esm": "^3.2.25",
     "filehound": "^1.17.3",
+    "htm": "^2.2.1",
     "tslint": "^5.20.0",
     "typescript": "^3.6.3"
   }
